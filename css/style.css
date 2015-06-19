@@ -1,0 +1,129 @@
+@import url('font-awesome-4.2.0/css/font-awesome.min.css');
+/* Import de MIXINS & Fuentes*/
+/* Variables
+-------------------------------------------------- */
+/* Grid System
+-------------------------------------------------- */
+.container_holder {
+  width: 1050px;
+  margin: 0 auto;
+  padding-left: 30px;
+  padding-right: 30px;
+  zoom: 1;
+}
+.container_holder:before,
+.container_holder:after {
+  display: table;
+  content: "";
+}
+.container_holder:after {
+  clear: both;
+}
+.container {
+  width: 1020px;
+  margin: 0 auto;
+  zoom: 1;
+}
+.container:before,
+.container:after {
+  display: table;
+  content: "";
+}
+.container:after {
+  clear: both;
+}
+/* Utility mixins
+-------------------------------------------------- */
+.clearfix {
+  zoom: 1;
+}
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  content: "";
+}
+.clearfix:after {
+  clear: both;
+}
+/* CSS3 
+-------------------------------------------------- */
+/* Backgrounds
+-------------------------------------------------- */
+/* Colores
+---------------------------------------------------------------------------------------------------- */
+.wrap .customer,
+.wrap .landscape,
+.wrap .system,
+.wrap .instance,
+.wrap .host {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  word-wrap: break-word;
+  background-color: rgba(100, 100, 100, 0.8);
+}
+.formfilter {
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+  box-shadow: none;
+  -webkit-appearance: none;
+  max-width: 90%;
+}
+#ita_host_types .host_type {
+  display: inline-table;
+  margin: 10px;
+  padding: 10px;
+  width: 30%;
+  height: 100px;
+  background-color: rgba(245, 49, 45, 0.6);
+  color: #FFF;
+}
+#ita_host_types .host_type a:active,
+#ita_host_types .host_type a:link,
+#ita_host_types .host_type a:visited {
+  color: #FFF;
+  display: block;
+  width: 100%;
+  height: 100%;
+  font-size: large;
+  text-decoration: none;
+  text-align: center;
+}
+#ita_host_types .host_type a:active span,
+#ita_host_types .host_type a:link span,
+#ita_host_types .host_type a:visited span {
+  display: block;
+  font-size: small;
+}
+.db_info {
+  display: block;
+  margin: 30px auto;
+  background-image: url("../img/db.png");
+  width: 773px;
+  height: 331px;
+}
+.form-error {
+  padding: 6px 12px;
+  line-height: 180%;
+  background: #ffe5ed;
+  border-radius: 4px;
+  margin-bottom: 22px;
+  color: darkred;
+}
+.form-error ul {
+  list-style: circle inside;
+}
+.wp-submenu li a:link i,
+.wp-submenu li a:visited i,
+.wp-submenu li a:active i {
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  font-size: inherit;
+  vertical-align: middle;
+}
+.wp-submenu li a:hover i {
+  font-size: 19px !important;
+}

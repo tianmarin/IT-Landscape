@@ -1,0 +1,121 @@
+
+
+/* Import de MIXINS & Fuentes*/
+
+@import "mixins.less";
+
+@import url('font-awesome-4.2.0/css/font-awesome.min.css');
+//@import url('http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css');
+//@import url('http://fonts.googleapis.com/css?family=Roboto:400,400italic,500,300,300italic,500italic');
+//@import url('https://fonts.googleapis.com/css?family=Roboto:400,400italic,500,300,300italic,500italic');
+
+
+
+
+.ita_landscape{
+	width: 90%;
+	min-height: 100px;
+	float: left;
+	padding: 10px 5px;
+	h2{
+		i{
+			font-style: normal !important;
+		}
+	}
+	.system_type{
+		width: 100%;
+		margin: 5px;
+		min-height: 100px;
+		float: left;
+		border: black dashed 1px;
+		header{
+			display: block;
+			float: left;
+			width: 90%;
+			margin: 5px;
+			h3{
+				float: left;
+				margin: none;
+				i{
+					font-style: normal !important;
+				}
+			}
+		}
+		.systems{
+			float: left;
+			width: 100%;
+			.system{
+				float: left;
+				width: 30%;
+				height: 65px;
+				margin: 5px 20px 5px 5px;
+				background-color: rgba(216, 216, 216, 0.5);
+				border: rgba(216, 216, 216, 1) 1px solid;
+				.roundedCorners(2px);
+				.transition;
+				&:hover{
+					margin-top: 0px;
+					margin-bottom: 10px;
+				}
+				.st_icon{
+					color: white;
+					font-size: 44px;
+					overflow: hidden;
+					text-align: center;
+					display: block;
+					float: left;
+					height: 55px;
+					width: 55px;
+					margin: 3px 5px 5px 3px;
+					border: #FFF solid 2px;
+					.roundedCorners(4px);
+					.box-shadow;
+//					#gradient > .vertical(darken(#FAD961,0%),darken(#F76B1C,0%));
+					*{
+						text-align: center;
+						display: block;
+						width: 100%;
+						height: 100%;
+					}
+				}
+				.st_1{
+					#gradient > .vertical(darken(#FAD961,0%),darken(#F76B1C,0%));
+				}
+				.st_2{
+					#gradient > .vertical(darken(#B4EC51,0%),darken(#429321,0%));
+				}
+				.st_3{
+					#gradient > .vertical(darken(#51ECB1,0%),darken(#219390,0%));
+				}
+				.st_4{
+					#gradient > .vertical(darken(#515CEC,0%),darken(#252193,0%));
+				}
+				.st_5{
+					#gradient > .vertical(darken(#EC7551,0%),darken(#934921,0%));
+				}
+				.st_6{
+					#gradient > .vertical(darken(#EC517A,0%),darken(#932144,0%));
+				}
+				.st_7{
+					#gradient > .vertical(darken(#51EC88,0%),darken(#21936A,0%));
+				}
+				.st_8{
+					#gradient > .vertical(darken(#F5515F,0%),darken(#9F041B,0%));
+				}
+				.st_9{
+					#gradient > .vertical(darken(#53A0FD,0%),darken(#3023AE,0%));
+				}
+				span{
+					color: black;
+					display: block;
+					&:first-child{
+						margin-top: 5px;
+					}
+					i{
+						font-style: normal;
+					}
+				}
+			}
+		}
+	}
+}

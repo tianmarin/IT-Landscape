@@ -1,0 +1,37 @@
+
+
+/* Import de MIXINS & Fuentes*/
+
+@import "mixins.less";
+
+@import url('http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css');
+//@import url('http://fonts.googleapis.com/css?family=Roboto:400,400italic,500,300,300italic,500italic');
+//@import url('https://fonts.googleapis.com/css?family=Roboto:400,400italic,500,300,300italic,500italic');
+
+/* Colores
+---------------------------------------------------------------------------------------------------- */
+
+
+.ita_landscape{
+	.bordered;
+	ul.systems{
+		li.system{
+			display: inline-table;
+			list-style: none !important;
+			width:200px;
+			height: 65px;
+			color: rgba(0, 0, 0, 0.8);
+			background-color: rgba(216, 216, 216, 0.5);
+			margin: 5px 10px;
+			i{
+				font-style: normal;
+			}
+		}
+	}
+}
+.ita_system{
+	display: block;
+	margin: 10px;
+	background-color: blue;
+	border: solid 1px black;
+}
